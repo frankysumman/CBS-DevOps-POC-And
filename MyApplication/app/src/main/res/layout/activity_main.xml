@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblX"
+        android:text="@string/label_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:ems="20"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblX"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/lblY"
+        android:label="@string/label_y"
+        android:text="Label Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="20"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Stop" />
+
+
+</RelativeLayout>
